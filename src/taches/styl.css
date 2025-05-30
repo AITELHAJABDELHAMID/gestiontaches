@@ -1,0 +1,68 @@
+fieldset {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="date"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* Responsive : style mobile-friendly */
+@media (max-width: 768px) {
+  fieldset {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  table thead {
+    display: none;
+  }
+
+  table, tbody, tr, td {
+    display: block;
+    width: 100%;
+  }
+
+  td {
+    padding: 10px;
+    text-align: right;
+    position: relative;
+    border: none;
+    border-bottom: 1px solid #ccc;
+  }
+
+  td::before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+
+  .btn {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+}
