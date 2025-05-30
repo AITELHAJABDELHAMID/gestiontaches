@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/gestiontaches/static/css/main.f01fd517.css",
+    "main.js": "/gestiontaches/static/js/main.f6ab78bc.js",
+    "static/js/453.2a515257.chunk.js": "/gestiontaches/static/js/453.2a515257.chunk.js",
+    "index.html": "/gestiontaches/index.html",
+    "main.f01fd517.css.map": "/gestiontaches/static/css/main.f01fd517.css.map",
+    "main.f6ab78bc.js.map": "/gestiontaches/static/js/main.f6ab78bc.js.map",
+    "453.2a515257.chunk.js.map": "/gestiontaches/static/js/453.2a515257.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f01fd517.css",
+    "static/js/main.f6ab78bc.js"
+  ]
+}
